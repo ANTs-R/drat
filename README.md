@@ -11,14 +11,12 @@ install.packages("drat")
 ###Install ANTsR
 
 ```r
-##
 drat::addRepo("ANTs-R")
 install.packages("ANTsR")
 ```
 
 ###Update ANTsR (together with other R-packages)
 ```r
-##
 drat::addRepo("ANTs-R")
 update.packages()
 ```
